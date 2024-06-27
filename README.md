@@ -12,19 +12,5 @@
   <li>BrowserRouter: A BrowserRouter armazena a localização atual na barra de endereços do navegador usando URLs limpas e navega usando a pilha de histórico integrada do navegador.</li>
   <li>Routes: Renderizado em qualquer lugar do aplicativo, Routes corresponderá a um conjunto de rotas derivadas do local atual .</li>
   <li>Route: As rotas são talvez a parte mais importante de um aplicativo React Router. Elas acoplam segmentos de URL a componentes, carregamento de dados e mutações de dados. Por meio do aninhamento de rotas, layouts de aplicativos complexos e dependências de dados se tornam simples e declarativos.</li>
-    Example:
-    <h1>
-          <BrowserRouter>
-      <Menu />
-      <Routes>
-        <Route path="/" element={<PaginaPadrao />}>
-          <Route index element={<Inicio />} />
-          <Route path="Sobre" element={<Sobre />} />
-        </Route>
-        <Route path="Posts/:id" element={<Post />} />
-        <Route path="*" element={<NaoEncontrada />} />
-      </Routes>
-      <Rodape />
-    </BrowserRouter>
-    </h1>
+
 </ul>
