@@ -8,5 +8,8 @@
   <li>useNavigate: E um hook retorna uma função que permite navegar programaticamente, por exemplo, em um efeito.</li>
   <h2>Tags Usadas:</h2>
     <li>Outlet: Outlet deve ser usado em elementos de rota pai para renderizar seus elementos de rota filho. Isso permite que a UI aninhada apareça quando as rotas secundárias são renderizadas. Se a rota pai corresponder exatamente, ela renderizará uma rota de índice filho ou nada se não houver rota de índice.</li>
-  <li>Link: A Link é um elemento que permite ao usuário navegar para outra página clicando ou tocando nela. Em react-router-dom, a <Link>renderiza um <a>elemento acessível com um real hrefque aponta para o recurso ao qual ele está vinculando. Isso significa que coisas como clicar com o botão direito em <Link>funcionam como você esperaria. Você pode usar <Link reloadDocument>para pular o roteamento do lado do cliente e deixar o navegador lidar com a transição normalmente (como se fosse um <a href>).</li>
+  <li>Link: A Link é um elemento que permite ao usuário navegar para outra página clicando ou tocando nela</li>
+  <li>BrowserRouter: A BrowserRouter armazena a localização atual na barra de endereços do navegador usando URLs limpas e navega usando a pilha de histórico integrada do navegador.</li>
+  <li>Routes: Renderizado em qualquer lugar do aplicativo, Routes corresponderá a um conjunto de rotas derivadas do local atual .</li>
+  <li>Route: As rotas são talvez a parte mais importante de um aplicativo React Router. Elas acoplam segmentos de URL a componentes, carregamento de dados e mutações de dados. Por meio do aninhamento de rotas, layouts de aplicativos complexos e dependências de dados se tornam simples e declarativos.</li>
 </ul>
