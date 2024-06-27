@@ -13,7 +13,7 @@
   <li>Routes: Renderizado em qualquer lugar do aplicativo, Routes corresponderá a um conjunto de rotas derivadas do local atual .</li>
   <li>Route: As rotas são talvez a parte mais importante de um aplicativo React Router. Elas acoplam segmentos de URL a componentes, carregamento de dados e mutações de dados. Por meio do aninhamento de rotas, layouts de aplicativos complexos e dependências de dados se tornam simples e declarativos.</li>
     Example:
-    <code textColor="black">
+    <code color="black">
           <BrowserRouter>
       <Menu />
       <Routes>
